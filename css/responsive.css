@@ -15,7 +15,7 @@
 
     }
     #main-header .header-caption h1 {
-        width: 80%;
+        width: 100%;
         position: absolute;
         top: 50%;
         left: 5%;
@@ -27,7 +27,7 @@
     }
 
     #main-header .header-caption h2 {
-        width: 70%;
+        width: 100%;
         position: absolute;
         top: 43%;
         left: 5%;
@@ -42,6 +42,7 @@
 @media (min-width: 992px) and (max-width: 1170px) {
 
     #main-header {
+        width: 100%;
         height: 70vh;
         background-image: url(../img/man-2.jpg);
         background-size: cover;
@@ -52,27 +53,29 @@
     #main-header .header-caption {
         position: absolute;
         width: 100%;
-        height: 100vh;
+        height: 100%;
     }
 
     #main-header .header-caption h1 {
 
         position: absolute;
         color: white;
-        left: 58%;
-        top: 13%;
+        right: -6.5%;
+        top: 15%;
         text-transform: uppercase;
         font-size: 1.6em;
+        transform: translate(-50%, -50%);
     }
 
     #main-header .header-caption h2 {
 
         position: absolute;
         color: white;
-        left: 58%;
+        right: 16.8%;
         top: 8%;
         text-transform: uppercase;
         font-size: 1.4em;
+        transform: translate(-50%, -50%);
 
     }
 }
@@ -96,8 +99,7 @@
     #main-header .header-caption h1 {
 
         position: absolute;
-        width: 70%;
-        left: 58%;
+        width: 100%;
         top: 58%;
         text-transform: uppercase;
         font-size: 1.6em;
@@ -109,8 +111,7 @@
     #main-header .header-caption h2 {
 
         position: absolute;
-        width: 70%;
-        left: 58%;
+        width: 1000%;
         top: 52%;
         text-transform: uppercase;
         font-size: 1.6em;
